@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הסתרת תמונות</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ הסתרת תמונות</h1>
+        
+        <div class="status">
+            <span id="status-text">טוען...</span>
+            <span id="status-icon">⏳</span>
+        </div>
+
+        <button id="toggle-btn" class="btn btn-primary">הפעיל הסתרה</button>
+
+        <div class="sites-section">
+            <h2>אתרים עם הסתרה:</h2>
+            <div id="sites-list" class="sites-list">
+                <p class="empty-text">עדיין אין אתרים</p>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="clear-btn" class="btn btn-danger">נקה הכל</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
